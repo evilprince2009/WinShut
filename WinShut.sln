@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30128.74
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinShut", "WinShut\WinShut.csproj", "{4C8EF235-81B8-4D67-B15E-454D4D8BB915}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "WinShut (x86)", "WinShut (x86)\WinShut (x86).vdproj", "{EBB6CB65-7B21-49C3-AECA-AB7D20D04B7C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C8EF235-81B8-4D67-B15E-454D4D8BB915}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C8EF235-81B8-4D67-B15E-454D4D8BB915}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C8EF235-81B8-4D67-B15E-454D4D8BB915}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C8EF235-81B8-4D67-B15E-454D4D8BB915}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBB6CB65-7B21-49C3-AECA-AB7D20D04B7C}.Debug|Any CPU.ActiveCfg = Debug
+		{EBB6CB65-7B21-49C3-AECA-AB7D20D04B7C}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4C82FD1E-DE82-4254-9EC7-0E8B2A954F9E}
+	EndGlobalSection
+EndGlobal
