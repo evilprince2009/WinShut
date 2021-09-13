@@ -1,17 +1,26 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using System;
 using System.Diagnostics;
 using System.Drawing;
 using System.Windows.Forms;
 
 namespace WinShut
 {
-    public partial class MainForm : Form
+    public partial class AppForm : Form
     {
         private string _actionParameter;
         private const string ActionTerm = "shutdown";
         private readonly int _initialValue = 0;
 
-        public MainForm()
+        public AppForm()
         {
             InitializeComponent();
         }
@@ -65,17 +74,23 @@ namespace WinShut
         {
             switch (actionBox.SelectedIndex)
             {
-                case 0: _actionParameter = "-s";
+                case 0:
+                    _actionParameter = "-s";
                     break;
-                case 1: _actionParameter = "-r";
+                case 1:
+                    _actionParameter = "-r";
                     break;
-                case 2: _actionParameter = "-l";
+                case 2:
+                    _actionParameter = "-l";
                     break;
-                case 3: _actionParameter = "-h";
+                case 3:
+                    _actionParameter = "-h";
                     break;
-                case 4: _actionParameter = "-s -f";
+                case 4:
+                    _actionParameter = "-s -f";
                     break;
-                default: _actionParameter = null;
+                default:
+                    _actionParameter = null;
                     break;
             }
         }

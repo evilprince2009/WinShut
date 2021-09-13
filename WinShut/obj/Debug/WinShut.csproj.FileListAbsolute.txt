@@ -1,9 +1,0 @@
-D:\Visual Studio Projects\WinShut\WinShut\bin\Debug\WinShut.exe.config
-D:\Visual Studio Projects\WinShut\WinShut\bin\Debug\WinShut.exe
-D:\Visual Studio Projects\WinShut\WinShut\bin\Debug\WinShut.pdb
-D:\Visual Studio Projects\WinShut\WinShut\obj\Debug\WinShut.Properties.Resources.resources
-D:\Visual Studio Projects\WinShut\WinShut\obj\Debug\WinShut.csproj.GenerateResource.cache
-D:\Visual Studio Projects\WinShut\WinShut\obj\Debug\WinShut.csproj.CoreCompileInputs.cache
-D:\Visual Studio Projects\WinShut\WinShut\obj\Debug\WinShut.exe
-D:\Visual Studio Projects\WinShut\WinShut\obj\Debug\WinShut.pdb
-D:\Visual Studio Projects\WinShut\WinShut\obj\Debug\WinShut.MainForm.resources
